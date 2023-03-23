@@ -49,6 +49,8 @@ public class adminmodule
         //Quản lý hóa đơn
         list.Add("modulehoadonbanhang|admin-hoa-don-ban-hang|~/admin_page/module_function/module_hoadon/module_DanhSachHoaDon.aspx");
         list.Add("modulehoadonthemmoi|admin-them-moi-hoa-don|~/admin_page/module_function/module_hoadon/module_HoaDonThemMoi.aspx");
+        list.Add("modulequanlyhoadon|admin-quan-ly-hoa-don|~/admin_page/module_function/module_hoadon/module_QuanLyHoaDon.aspx");
+        list.Add("modulechitiethoadon|admin-chi-tiet-hoa-don-{_idDonHang}|~/admin_page/module_function/module_hoadon/module_ChiTietHoaDon.aspx");
 
         //xuất hóa đơn
         list.Add("modulexuathoadon|admin-xuat-hoa-don-{id}|~/admin_page/module_function/module_hoadon/module_InHoaDonDichVu.aspx");
